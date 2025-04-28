@@ -1,0 +1,124 @@
+Initialize engine version: 5.0.2f1 (0b02744d4013)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Richie\Documents\Projects\StarDive\Delta Release\PCDelta1.0\StarDivePC_Data\Managed\System.Core.dll (this message is harmless)
+sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 1520)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 1520)
+
+post ps
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 1520)
+
+post ps
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+anime
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+anime
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.392500 ms
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 977.
+Total: 0.180000 ms (FindLiveObjects: 0.018800 ms CreateObjectMapping: 0.016700 ms MarkObjects: 0.132700 ms  DeleteObjects: 0.011500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.642600 ms
+
+Unloading 153 unused Assets to reduce memory usage. Loaded Objects now: 411.
+Total: 0.135000 ms (FindLiveObjects: 0.011300 ms CreateObjectMapping: 0.011700 ms MarkObjects: 0.058000 ms  DeleteObjects: 0.053400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.245400 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 980.
+Total: 0.167400 ms (FindLiveObjects: 0.017700 ms CreateObjectMapping: 0.017200 ms MarkObjects: 0.122700 ms  DeleteObjects: 0.009300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.618000 ms
+
+Unloading 153 unused Assets to reduce memory usage. Loaded Objects now: 412.
+Total: 0.134000 ms (FindLiveObjects: 0.010800 ms CreateObjectMapping: 0.011700 ms MarkObjects: 0.060800 ms  DeleteObjects: 0.050400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.226900 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 980.
+Total: 0.171900 ms (FindLiveObjects: 0.017600 ms CreateObjectMapping: 0.016600 ms MarkObjects: 0.127600 ms  DeleteObjects: 0.009600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.584400 ms
+
+Unloading 153 unused Assets to reduce memory usage. Loaded Objects now: 412.
+Total: 0.137100 ms (FindLiveObjects: 0.011100 ms CreateObjectMapping: 0.011700 ms MarkObjects: 0.061600 ms  DeleteObjects: 0.052400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.224500 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 980.
+Total: 0.158900 ms (FindLiveObjects: 0.017300 ms CreateObjectMapping: 0.017400 ms MarkObjects: 0.114400 ms  DeleteObjects: 0.009400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.623300 ms
+
+Unloading 158 unused Assets to reduce memory usage. Loaded Objects now: 412.
+Total: 0.138800 ms (FindLiveObjects: 0.011300 ms CreateObjectMapping: 0.011300 ms MarkObjects: 0.061500 ms  DeleteObjects: 0.054300 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.222100 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 980.
+Total: 0.170300 ms (FindLiveObjects: 0.017200 ms CreateObjectMapping: 0.016100 ms MarkObjects: 0.126600 ms  DeleteObjects: 0.009800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.602300 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 412.
+Total: 0.143500 ms (FindLiveObjects: 0.011600 ms CreateObjectMapping: 0.012500 ms MarkObjects: 0.064100 ms  DeleteObjects: 0.054700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.227300 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 980.
+Total: 0.175000 ms (FindLiveObjects: 0.017700 ms CreateObjectMapping: 0.016400 ms MarkObjects: 0.130600 ms  DeleteObjects: 0.009900 ms)
+

@@ -1,0 +1,16 @@
+﻿#pragma once
+#include <stdint.h>
+// NukeEnemy
+struct NukeEnemy_t68;
+// System.ValueType
+#include "mscorlib_System_ValueType.h"
+// System.IntPtr
+#include "mscorlib_System_IntPtr.h"
+// UnityEngine.CastHelper`1<NukeEnemy>
+struct  CastHelper_1_t2448 
+{
+	// T UnityEngine.CastHelper`1<NukeEnemy>::t
+	NukeEnemy_t68 * ___t_0;
+	// System.IntPtr UnityEngine.CastHelper`1<NukeEnemy>::onePointerFurtherThanT
+	IntPtr_t ___onePointerFurtherThanT_1;
+};

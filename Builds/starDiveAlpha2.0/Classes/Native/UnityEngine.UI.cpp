@@ -1,0 +1,351 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+#include "stringLiterals.h"
+
+extern TypeInfo U3CModuleU3E_t244_il2cpp_TypeInfo;
+extern TypeInfo EventHandle_t245_il2cpp_TypeInfo;
+extern TypeInfo IEventSystemHandler_t527_il2cpp_TypeInfo;
+extern TypeInfo IPointerEnterHandler_t283_il2cpp_TypeInfo;
+extern TypeInfo IPointerExitHandler_t284_il2cpp_TypeInfo;
+extern TypeInfo IPointerDownHandler_t285_il2cpp_TypeInfo;
+extern TypeInfo IPointerUpHandler_t286_il2cpp_TypeInfo;
+extern TypeInfo IPointerClickHandler_t287_il2cpp_TypeInfo;
+extern TypeInfo IBeginDragHandler_t289_il2cpp_TypeInfo;
+extern TypeInfo IInitializePotentialDragHandler_t288_il2cpp_TypeInfo;
+extern TypeInfo IDragHandler_t290_il2cpp_TypeInfo;
+extern TypeInfo IEndDragHandler_t291_il2cpp_TypeInfo;
+extern TypeInfo IDropHandler_t292_il2cpp_TypeInfo;
+extern TypeInfo IScrollHandler_t293_il2cpp_TypeInfo;
+extern TypeInfo IUpdateSelectedHandler_t294_il2cpp_TypeInfo;
+extern TypeInfo ISelectHandler_t295_il2cpp_TypeInfo;
+extern TypeInfo IDeselectHandler_t296_il2cpp_TypeInfo;
+extern TypeInfo IMoveHandler_t297_il2cpp_TypeInfo;
+extern TypeInfo ISubmitHandler_t298_il2cpp_TypeInfo;
+extern TypeInfo ICancelHandler_t299_il2cpp_TypeInfo;
+extern TypeInfo EventSystem_t250_il2cpp_TypeInfo;
+extern TypeInfo TriggerEvent_t255_il2cpp_TypeInfo;
+extern TypeInfo Entry_t257_il2cpp_TypeInfo;
+extern TypeInfo EventTrigger_t259_il2cpp_TypeInfo;
+extern TypeInfo EventTriggerType_t261_il2cpp_TypeInfo;
+extern TypeInfo EventFunction_1_t530_il2cpp_TypeInfo;
+extern TypeInfo ExecuteEvents_t282_il2cpp_TypeInfo;
+extern TypeInfo MoveDirection_t302_il2cpp_TypeInfo;
+extern TypeInfo RaycasterManager_t304_il2cpp_TypeInfo;
+extern TypeInfo RaycastResult_t254_il2cpp_TypeInfo;
+extern TypeInfo UIBehaviour_t251_il2cpp_TypeInfo;
+extern TypeInfo AxisEventData_t260_il2cpp_TypeInfo;
+extern TypeInfo BaseEventData_t248_il2cpp_TypeInfo;
+extern TypeInfo InputButton_t306_il2cpp_TypeInfo;
+extern TypeInfo FramePressState_t307_il2cpp_TypeInfo;
+extern TypeInfo PointerEventData_t252_il2cpp_TypeInfo;
+extern TypeInfo BaseInputModule_t247_il2cpp_TypeInfo;
+extern TypeInfo ButtonState_t309_il2cpp_TypeInfo;
+extern TypeInfo MouseState_t311_il2cpp_TypeInfo;
+extern TypeInfo MouseButtonEventData_t308_il2cpp_TypeInfo;
+extern TypeInfo PointerInputModule_t313_il2cpp_TypeInfo;
+extern TypeInfo InputMode_t315_il2cpp_TypeInfo;
+extern TypeInfo StandaloneInputModule_t316_il2cpp_TypeInfo;
+extern TypeInfo TouchInputModule_t317_il2cpp_TypeInfo;
+extern TypeInfo BaseRaycaster_t305_il2cpp_TypeInfo;
+extern TypeInfo Physics2DRaycaster_t318_il2cpp_TypeInfo;
+extern TypeInfo PhysicsRaycaster_t319_il2cpp_TypeInfo;
+extern TypeInfo ITweenValue_t546_il2cpp_TypeInfo;
+extern TypeInfo ColorTweenMode_t321_il2cpp_TypeInfo;
+extern TypeInfo ColorTweenCallback_t322_il2cpp_TypeInfo;
+extern TypeInfo ColorTween_t324_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__Iterator0_t547_il2cpp_TypeInfo;
+extern TypeInfo TweenRunner_1_t549_il2cpp_TypeInfo;
+extern TypeInfo AnimationTriggers_t326_il2cpp_TypeInfo;
+extern TypeInfo ButtonClickedEvent_t327_il2cpp_TypeInfo;
+extern TypeInfo U3COnFinishSubmitU3Ec__Iterator1_t330_il2cpp_TypeInfo;
+extern TypeInfo Button_t329_il2cpp_TypeInfo;
+extern TypeInfo CanvasUpdate_t332_il2cpp_TypeInfo;
+extern TypeInfo ICanvasElement_t337_il2cpp_TypeInfo;
+extern TypeInfo CanvasUpdateRegistry_t333_il2cpp_TypeInfo;
+extern TypeInfo ColorBlock_t338_il2cpp_TypeInfo;
+extern TypeInfo FontData_t340_il2cpp_TypeInfo;
+extern TypeInfo FontUpdateTracker_t342_il2cpp_TypeInfo;
+extern TypeInfo Graphic_t351_il2cpp_TypeInfo;
+extern TypeInfo BlockingObjects_t353_il2cpp_TypeInfo;
+extern TypeInfo GraphicRaycaster_t356_il2cpp_TypeInfo;
+extern TypeInfo GraphicRegistry_t357_il2cpp_TypeInfo;
+extern TypeInfo IGraphicEnabledDisabled_t488_il2cpp_TypeInfo;
+extern TypeInfo Type_t360_il2cpp_TypeInfo;
+extern TypeInfo FillMethod_t361_il2cpp_TypeInfo;
+extern TypeInfo OriginHorizontal_t362_il2cpp_TypeInfo;
+extern TypeInfo OriginVertical_t363_il2cpp_TypeInfo;
+extern TypeInfo Origin90_t364_il2cpp_TypeInfo;
+extern TypeInfo Origin180_t365_il2cpp_TypeInfo;
+extern TypeInfo Origin360_t366_il2cpp_TypeInfo;
+extern TypeInfo Image_t368_il2cpp_TypeInfo;
+extern TypeInfo IMask_t508_il2cpp_TypeInfo;
+extern TypeInfo IMaskable_t525_il2cpp_TypeInfo;
+extern TypeInfo ContentType_t371_il2cpp_TypeInfo;
+extern TypeInfo InputType_t372_il2cpp_TypeInfo;
+extern TypeInfo CharacterValidation_t373_il2cpp_TypeInfo;
+extern TypeInfo LineType_t374_il2cpp_TypeInfo;
+extern TypeInfo SubmitEvent_t375_il2cpp_TypeInfo;
+extern TypeInfo OnChangeEvent_t377_il2cpp_TypeInfo;
+extern TypeInfo EditState_t378_il2cpp_TypeInfo;
+extern TypeInfo OnValidateInput_t381_il2cpp_TypeInfo;
+extern TypeInfo U3CCaretBlinkU3Ec__Iterator2_t384_il2cpp_TypeInfo;
+extern TypeInfo U3CMouseDragOutsideRectU3Ec__Iterator3_t385_il2cpp_TypeInfo;
+extern TypeInfo InputField_t383_il2cpp_TypeInfo;
+extern TypeInfo MaskableGraphic_t369_il2cpp_TypeInfo;
+extern TypeInfo Misc_t393_il2cpp_TypeInfo;
+extern TypeInfo Mode_t394_il2cpp_TypeInfo;
+extern TypeInfo Navigation_t395_il2cpp_TypeInfo;
+extern TypeInfo RawImage_t396_il2cpp_TypeInfo;
+extern TypeInfo Direction_t397_il2cpp_TypeInfo;
+extern TypeInfo ScrollEvent_t398_il2cpp_TypeInfo;
+extern TypeInfo Axis_t400_il2cpp_TypeInfo;
+extern TypeInfo U3CClickRepeatU3Ec__Iterator4_t402_il2cpp_TypeInfo;
+extern TypeInfo Scrollbar_t401_il2cpp_TypeInfo;
+extern TypeInfo MovementType_t404_il2cpp_TypeInfo;
+extern TypeInfo ScrollRectEvent_t405_il2cpp_TypeInfo;
+extern TypeInfo ScrollRect_t407_il2cpp_TypeInfo;
+extern TypeInfo Transition_t409_il2cpp_TypeInfo;
+extern TypeInfo SelectionState_t410_il2cpp_TypeInfo;
+extern TypeInfo Selectable_t331_il2cpp_TypeInfo;
+extern TypeInfo SetPropertyUtility_t415_il2cpp_TypeInfo;
+extern TypeInfo Direction_t416_il2cpp_TypeInfo;
+extern TypeInfo SliderEvent_t417_il2cpp_TypeInfo;
+extern TypeInfo Axis_t418_il2cpp_TypeInfo;
+extern TypeInfo Slider_t419_il2cpp_TypeInfo;
+extern TypeInfo SpriteState_t413_il2cpp_TypeInfo;
+extern TypeInfo MatEntry_t420_il2cpp_TypeInfo;
+extern TypeInfo StencilMaterial_t422_il2cpp_TypeInfo;
+extern TypeInfo Text_t343_il2cpp_TypeInfo;
+extern TypeInfo ToggleTransition_t424_il2cpp_TypeInfo;
+extern TypeInfo ToggleEvent_t425_il2cpp_TypeInfo;
+extern TypeInfo Toggle_t428_il2cpp_TypeInfo;
+extern TypeInfo ToggleGroup_t427_il2cpp_TypeInfo;
+extern TypeInfo AspectMode_t433_il2cpp_TypeInfo;
+extern TypeInfo AspectRatioFitter_t434_il2cpp_TypeInfo;
+extern TypeInfo ScaleMode_t435_il2cpp_TypeInfo;
+extern TypeInfo ScreenMatchMode_t436_il2cpp_TypeInfo;
+extern TypeInfo Unit_t437_il2cpp_TypeInfo;
+extern TypeInfo CanvasScaler_t438_il2cpp_TypeInfo;
+extern TypeInfo FitMode_t439_il2cpp_TypeInfo;
+extern TypeInfo ContentSizeFitter_t440_il2cpp_TypeInfo;
+extern TypeInfo Corner_t441_il2cpp_TypeInfo;
+extern TypeInfo Axis_t442_il2cpp_TypeInfo;
+extern TypeInfo Constraint_t443_il2cpp_TypeInfo;
+extern TypeInfo GridLayoutGroup_t444_il2cpp_TypeInfo;
+extern TypeInfo HorizontalLayoutGroup_t446_il2cpp_TypeInfo;
+extern TypeInfo HorizontalOrVerticalLayoutGroup_t447_il2cpp_TypeInfo;
+extern TypeInfo ILayoutElement_t457_il2cpp_TypeInfo;
+extern TypeInfo ILayoutController_t523_il2cpp_TypeInfo;
+extern TypeInfo ILayoutGroup_t519_il2cpp_TypeInfo;
+extern TypeInfo ILayoutSelfController_t522_il2cpp_TypeInfo;
+extern TypeInfo ILayoutIgnorer_t518_il2cpp_TypeInfo;
+extern TypeInfo LayoutElement_t448_il2cpp_TypeInfo;
+extern TypeInfo LayoutGroup_t445_il2cpp_TypeInfo;
+extern TypeInfo LayoutRebuilder_t453_il2cpp_TypeInfo;
+extern TypeInfo LayoutUtility_t456_il2cpp_TypeInfo;
+extern TypeInfo VerticalLayoutGroup_t458_il2cpp_TypeInfo;
+extern TypeInfo IMaterialModifier_t487_il2cpp_TypeInfo;
+extern TypeInfo Mask_t459_il2cpp_TypeInfo;
+extern TypeInfo IndexedSet_1_t568_il2cpp_TypeInfo;
+extern TypeInfo CanvasListPool_t462_il2cpp_TypeInfo;
+extern TypeInfo ComponentListPool_t466_il2cpp_TypeInfo;
+extern TypeInfo ObjectPool_1_t581_il2cpp_TypeInfo;
+extern TypeInfo BaseVertexEffect_t467_il2cpp_TypeInfo;
+extern TypeInfo IVertexModifier_t489_il2cpp_TypeInfo;
+extern TypeInfo Outline_t468_il2cpp_TypeInfo;
+extern TypeInfo PositionAsUV1_t470_il2cpp_TypeInfo;
+extern TypeInfo Shadow_t469_il2cpp_TypeInfo;
+#include "utils/RegisterRuntimeInitializeAndCleanup.h"
+#include <map>
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_UnityEngine_UI_Assembly_Types[154] = 
+{
+	&U3CModuleU3E_t244_il2cpp_TypeInfo,
+	&EventHandle_t245_il2cpp_TypeInfo,
+	&IEventSystemHandler_t527_il2cpp_TypeInfo,
+	&IPointerEnterHandler_t283_il2cpp_TypeInfo,
+	&IPointerExitHandler_t284_il2cpp_TypeInfo,
+	&IPointerDownHandler_t285_il2cpp_TypeInfo,
+	&IPointerUpHandler_t286_il2cpp_TypeInfo,
+	&IPointerClickHandler_t287_il2cpp_TypeInfo,
+	&IBeginDragHandler_t289_il2cpp_TypeInfo,
+	&IInitializePotentialDragHandler_t288_il2cpp_TypeInfo,
+	&IDragHandler_t290_il2cpp_TypeInfo,
+	&IEndDragHandler_t291_il2cpp_TypeInfo,
+	&IDropHandler_t292_il2cpp_TypeInfo,
+	&IScrollHandler_t293_il2cpp_TypeInfo,
+	&IUpdateSelectedHandler_t294_il2cpp_TypeInfo,
+	&ISelectHandler_t295_il2cpp_TypeInfo,
+	&IDeselectHandler_t296_il2cpp_TypeInfo,
+	&IMoveHandler_t297_il2cpp_TypeInfo,
+	&ISubmitHandler_t298_il2cpp_TypeInfo,
+	&ICancelHandler_t299_il2cpp_TypeInfo,
+	&EventSystem_t250_il2cpp_TypeInfo,
+	&TriggerEvent_t255_il2cpp_TypeInfo,
+	&Entry_t257_il2cpp_TypeInfo,
+	&EventTrigger_t259_il2cpp_TypeInfo,
+	&EventTriggerType_t261_il2cpp_TypeInfo,
+	&EventFunction_1_t530_il2cpp_TypeInfo,
+	&ExecuteEvents_t282_il2cpp_TypeInfo,
+	&MoveDirection_t302_il2cpp_TypeInfo,
+	&RaycasterManager_t304_il2cpp_TypeInfo,
+	&RaycastResult_t254_il2cpp_TypeInfo,
+	&UIBehaviour_t251_il2cpp_TypeInfo,
+	&AxisEventData_t260_il2cpp_TypeInfo,
+	&BaseEventData_t248_il2cpp_TypeInfo,
+	&InputButton_t306_il2cpp_TypeInfo,
+	&FramePressState_t307_il2cpp_TypeInfo,
+	&PointerEventData_t252_il2cpp_TypeInfo,
+	&BaseInputModule_t247_il2cpp_TypeInfo,
+	&ButtonState_t309_il2cpp_TypeInfo,
+	&MouseState_t311_il2cpp_TypeInfo,
+	&MouseButtonEventData_t308_il2cpp_TypeInfo,
+	&PointerInputModule_t313_il2cpp_TypeInfo,
+	&InputMode_t315_il2cpp_TypeInfo,
+	&StandaloneInputModule_t316_il2cpp_TypeInfo,
+	&TouchInputModule_t317_il2cpp_TypeInfo,
+	&BaseRaycaster_t305_il2cpp_TypeInfo,
+	&Physics2DRaycaster_t318_il2cpp_TypeInfo,
+	&PhysicsRaycaster_t319_il2cpp_TypeInfo,
+	&ITweenValue_t546_il2cpp_TypeInfo,
+	&ColorTweenMode_t321_il2cpp_TypeInfo,
+	&ColorTweenCallback_t322_il2cpp_TypeInfo,
+	&ColorTween_t324_il2cpp_TypeInfo,
+	&U3CStartU3Ec__Iterator0_t547_il2cpp_TypeInfo,
+	&TweenRunner_1_t549_il2cpp_TypeInfo,
+	&AnimationTriggers_t326_il2cpp_TypeInfo,
+	&ButtonClickedEvent_t327_il2cpp_TypeInfo,
+	&U3COnFinishSubmitU3Ec__Iterator1_t330_il2cpp_TypeInfo,
+	&Button_t329_il2cpp_TypeInfo,
+	&CanvasUpdate_t332_il2cpp_TypeInfo,
+	&ICanvasElement_t337_il2cpp_TypeInfo,
+	&CanvasUpdateRegistry_t333_il2cpp_TypeInfo,
+	&ColorBlock_t338_il2cpp_TypeInfo,
+	&FontData_t340_il2cpp_TypeInfo,
+	&FontUpdateTracker_t342_il2cpp_TypeInfo,
+	&Graphic_t351_il2cpp_TypeInfo,
+	&BlockingObjects_t353_il2cpp_TypeInfo,
+	&GraphicRaycaster_t356_il2cpp_TypeInfo,
+	&GraphicRegistry_t357_il2cpp_TypeInfo,
+	&IGraphicEnabledDisabled_t488_il2cpp_TypeInfo,
+	&Type_t360_il2cpp_TypeInfo,
+	&FillMethod_t361_il2cpp_TypeInfo,
+	&OriginHorizontal_t362_il2cpp_TypeInfo,
+	&OriginVertical_t363_il2cpp_TypeInfo,
+	&Origin90_t364_il2cpp_TypeInfo,
+	&Origin180_t365_il2cpp_TypeInfo,
+	&Origin360_t366_il2cpp_TypeInfo,
+	&Image_t368_il2cpp_TypeInfo,
+	&IMask_t508_il2cpp_TypeInfo,
+	&IMaskable_t525_il2cpp_TypeInfo,
+	&ContentType_t371_il2cpp_TypeInfo,
+	&InputType_t372_il2cpp_TypeInfo,
+	&CharacterValidation_t373_il2cpp_TypeInfo,
+	&LineType_t374_il2cpp_TypeInfo,
+	&SubmitEvent_t375_il2cpp_TypeInfo,
+	&OnChangeEvent_t377_il2cpp_TypeInfo,
+	&EditState_t378_il2cpp_TypeInfo,
+	&OnValidateInput_t381_il2cpp_TypeInfo,
+	&U3CCaretBlinkU3Ec__Iterator2_t384_il2cpp_TypeInfo,
+	&U3CMouseDragOutsideRectU3Ec__Iterator3_t385_il2cpp_TypeInfo,
+	&InputField_t383_il2cpp_TypeInfo,
+	&MaskableGraphic_t369_il2cpp_TypeInfo,
+	&Misc_t393_il2cpp_TypeInfo,
+	&Mode_t394_il2cpp_TypeInfo,
+	&Navigation_t395_il2cpp_TypeInfo,
+	&RawImage_t396_il2cpp_TypeInfo,
+	&Direction_t397_il2cpp_TypeInfo,
+	&ScrollEvent_t398_il2cpp_TypeInfo,
+	&Axis_t400_il2cpp_TypeInfo,
+	&U3CClickRepeatU3Ec__Iterator4_t402_il2cpp_TypeInfo,
+	&Scrollbar_t401_il2cpp_TypeInfo,
+	&MovementType_t404_il2cpp_TypeInfo,
+	&ScrollRectEvent_t405_il2cpp_TypeInfo,
+	&ScrollRect_t407_il2cpp_TypeInfo,
+	&Transition_t409_il2cpp_TypeInfo,
+	&SelectionState_t410_il2cpp_TypeInfo,
+	&Selectable_t331_il2cpp_TypeInfo,
+	&SetPropertyUtility_t415_il2cpp_TypeInfo,
+	&Direction_t416_il2cpp_TypeInfo,
+	&SliderEvent_t417_il2cpp_TypeInfo,
+	&Axis_t418_il2cpp_TypeInfo,
+	&Slider_t419_il2cpp_TypeInfo,
+	&SpriteState_t413_il2cpp_TypeInfo,
+	&MatEntry_t420_il2cpp_TypeInfo,
+	&StencilMaterial_t422_il2cpp_TypeInfo,
+	&Text_t343_il2cpp_TypeInfo,
+	&ToggleTransition_t424_il2cpp_TypeInfo,
+	&ToggleEvent_t425_il2cpp_TypeInfo,
+	&Toggle_t428_il2cpp_TypeInfo,
+	&ToggleGroup_t427_il2cpp_TypeInfo,
+	&AspectMode_t433_il2cpp_TypeInfo,
+	&AspectRatioFitter_t434_il2cpp_TypeInfo,
+	&ScaleMode_t435_il2cpp_TypeInfo,
+	&ScreenMatchMode_t436_il2cpp_TypeInfo,
+	&Unit_t437_il2cpp_TypeInfo,
+	&CanvasScaler_t438_il2cpp_TypeInfo,
+	&FitMode_t439_il2cpp_TypeInfo,
+	&ContentSizeFitter_t440_il2cpp_TypeInfo,
+	&Corner_t441_il2cpp_TypeInfo,
+	&Axis_t442_il2cpp_TypeInfo,
+	&Constraint_t443_il2cpp_TypeInfo,
+	&GridLayoutGroup_t444_il2cpp_TypeInfo,
+	&HorizontalLayoutGroup_t446_il2cpp_TypeInfo,
+	&HorizontalOrVerticalLayoutGroup_t447_il2cpp_TypeInfo,
+	&ILayoutElement_t457_il2cpp_TypeInfo,
+	&ILayoutController_t523_il2cpp_TypeInfo,
+	&ILayoutGroup_t519_il2cpp_TypeInfo,
+	&ILayoutSelfController_t522_il2cpp_TypeInfo,
+	&ILayoutIgnorer_t518_il2cpp_TypeInfo,
+	&LayoutElement_t448_il2cpp_TypeInfo,
+	&LayoutGroup_t445_il2cpp_TypeInfo,
+	&LayoutRebuilder_t453_il2cpp_TypeInfo,
+	&LayoutUtility_t456_il2cpp_TypeInfo,
+	&VerticalLayoutGroup_t458_il2cpp_TypeInfo,
+	&IMaterialModifier_t487_il2cpp_TypeInfo,
+	&Mask_t459_il2cpp_TypeInfo,
+	&IndexedSet_1_t568_il2cpp_TypeInfo,
+	&CanvasListPool_t462_il2cpp_TypeInfo,
+	&ComponentListPool_t466_il2cpp_TypeInfo,
+	&ObjectPool_1_t581_il2cpp_TypeInfo,
+	&BaseVertexEffect_t467_il2cpp_TypeInfo,
+	&IVertexModifier_t489_il2cpp_TypeInfo,
+	&Outline_t468_il2cpp_TypeInfo,
+	&PositionAsUV1_t470_il2cpp_TypeInfo,
+	&Shadow_t469_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_UnityEngine_UI_dll_Image;
+extern CustomAttributesCache g_UnityEngine_UI_Assembly__CustomAttributeCache;
+Il2CppAssembly g_UnityEngine_UI_Assembly = 
+{
+	{ "UnityEngine.UI", 0, 0, 0, { 0 }, 32772, 0, 0, 1, 0, 0, 0 },
+	&g_UnityEngine_UI_dll_Image,
+	&g_UnityEngine_UI_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_UnityEngine_UI_dll_Image = 
+{
+	 "UnityEngine.UI.dll" ,
+	&g_UnityEngine_UI_Assembly,
+	g_UnityEngine_UI_Assembly_Types,
+	153,
+	NULL,
+};
+static void s_UnityEngine_UIRegistration()
+{
+	RegisterAssembly (&g_UnityEngine_UI_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_UnityEngine_UIRegistrationVariable(&s_UnityEngine_UIRegistration, NULL);
