@@ -8,6 +8,7 @@ If anyone wants to create a Pull Request that makes it so this program runs with
 
 As for reasons why it is open source, well, that is because I think the time and effort for this game would be more beneficial to people if they can view it and edit it.
 
+Here's a video of the game: https://www.youtube.com/watch?v=3gTI_Dlsh8g
 
 ** Enjoy! **
 
