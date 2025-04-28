@@ -1,0 +1,14 @@
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\obj\Debug\UnityVS.proto.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\obj\Debug\Assembly-CSharp.dll
+C:\Users\cheif_000\Desktop\Files\StarDive\proto\obj\Debug\Assembly-CSharp.pdb
